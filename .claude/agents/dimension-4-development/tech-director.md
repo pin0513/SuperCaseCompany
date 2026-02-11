@@ -84,10 +84,28 @@ Direct reports in Development Dimension:
 
 Leverage development capabilities:
 - `/deliverable-management` skill for release tracking
+- `/anthropic-sdk-reference` skill for Claude API integration and best practices
 - Version control (Git, GitHub, Azure DevOps)
 - CI/CD pipelines (GitHub Actions, Azure Pipelines)
 - Cloud platforms (GCP, Azure, AWS, Cloudflare)
 - Development frameworks and tools
+
+## Technical Reference Resources
+
+**Anthropic Official Repositories** (accessible via `/anthropic-sdk-reference` skill):
+- anthropic-sdk-python: Official Python SDK for Claude API
+- anthropic-sdk-typescript: Official TypeScript/JavaScript SDK
+- anthropic-quickstarts: Quick start templates and example applications
+- courses: Educational materials for prompt engineering and AI development
+- prompt-eng-interactive-tutorial: Interactive prompt engineering tutorial
+
+Use these repositories for:
+- API integration patterns and best practices
+- SDK implementation examples
+- Tool use and function calling patterns
+- Streaming responses and vision capabilities
+- Prompt engineering techniques
+- Team training and onboarding
 
 ## Success Criteria
 
