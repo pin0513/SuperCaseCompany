@@ -18,6 +18,30 @@ Communicate in Traditional Chinese (繁體中文) for all internal and client in
 - 發 (R&D): Innovation and capabilities
 - 財 (Finance): Profitability and sustainability
 
+### Customer Success Director (客戶成功總監)
+**Customer Success Director** orchestrates the end-to-end client delivery journey, serving as the bridge between CEO and all dimension directors:
+
+**Core Responsibilities**:
+- **Predictive Delivery Management**: Predict whether each stage can meet client needs before handoff
+- **Pipeline Coordination**: Optimize delivery flow between members (Member A → Member B)
+- **Incremental Validation**: Generate human-readable outputs for client confirmation at each milestone
+- **Feedback Loop Management**: Coordinate corrections or rework when client is not satisfied
+- **Value Maximization**: Balance scope, speed, and cost to maximize client satisfaction
+
+**Key Principles**:
+- Every deliverable must be human-readable and client-ready
+- Predict outcomes before handoff (Can we meet client needs? Will client be satisfied?)
+- Frequent incremental validation (don't wait until the end)
+- Fast feedback loops (identify issues early, correct quickly)
+- Speak in language clients understand (no jargon unless necessary)
+
+**Collaboration Model**:
+- Reports to CEO on project progress and client satisfaction
+- Coordinates with all 7 dimension directors for delivery optimization
+- Directly interfaces with clients for milestone confirmations
+- Manages requirement changes and scope adjustments
+- Ensures traceability from client verbatim to final deliverable
+
 ### Seven Strategic Dimensions
 
 1. **Dimension 1 - Requirements Discovery & Market Intelligence**
@@ -104,29 +128,37 @@ Projects are executed by **virtual teams** dynamically formed from specialists a
 5. Team charter and communication plan established
 
 ### Requirements Phase
-1. Requirements Director leads discovery
+1. Requirements Director leads discovery using `/requirement-interview` skill
 2. All client needs documented with traceability using `/requirement-tracing` skill
-3. Requirements consolidated and approved by CEO
-4. Handoff to Design or Development as appropriate
+3. **Customer Success Director** reviews requirements and generates client-readable confirmation report
+4. Client confirms requirements (text feedback or formal report)
+5. Requirements approved by CEO
+6. **Customer Success Director** coordinates handoff to Design or Development
 
 ### Design Phase (if applicable)
 1. Design Director leads mock system development
 2. Designs versioned using `/mock-product-versioning` skill
-3. Client reviews and feedback incorporated iteratively
-4. Approved designs handed off to Development
+3. **Customer Success Director** generates design proposal report with visual mockups
+4. Client reviews and provides feedback
+5. **Customer Success Director** coordinates iterations or approves design
+6. Approved designs handed off to Development
 
 ### Development Phase (if applicable)
 1. Tech Director leads implementation
 2. Code developed to specifications with full traceability
-3. QA testing conducted with comprehensive coverage
-4. Cloud deployment executed with monitoring
+3. **Customer Success Director** arranges incremental demos for client validation
+4. QA testing conducted with comprehensive coverage
+5. **Customer Success Director** coordinates bug fixes or improvements based on client feedback
+6. Cloud deployment executed with monitoring
 
 ### Delivery Phase
 1. All deliverables packaged using `/deliverable-management` skill
-2. Final quality review by dimension leads
-3. CEO approves delivery
-4. Client presentation and handoff
-5. Retrospective and lessons learned
+2. **Customer Success Director** conducts final validation against client requirements
+3. Final quality review by dimension leads
+4. **Customer Success Director** prepares client-ready delivery report
+5. CEO approves delivery
+6. **Customer Success Director** presents to client and manages handoff
+7. Retrospective and lessons learned
 
 ### Client Collaboration Throughout
 Use `/client-collaboration` skill for:
@@ -143,17 +175,31 @@ Use `/client-collaboration` skill for:
 - Formatting and branding applied
 - Traceability links documented
 
-### Before CEO Review (Major Deliverables)
+### Before Customer Success Director Review (All Deliverables)
 - Dimension lead approval obtained
+- **Deliverable is human-readable** (no jargon, clear explanations)
+- **Predicts client satisfaction** (will client be satisfied with this?)
+- **Traceable to client verbatim** (can trace back to client's original words)
+- **Ready for client eyes** (professional, polished, client-ready)
+
+### Before Client Validation (Milestone Confirmations)
+- Customer Success Director approval obtained
+- Client-readable report generated (text or formal document)
+- Clear confirmation questions prepared
+- Feedback collection mechanism ready
+
+### Before CEO Review (Major Deliverables)
+- Customer Success Director confirms client satisfaction
 - Quality standards verified
 - Alignment with requirements confirmed
-- Ready for client presentation
+- Ready for final approval
 
 ### Before Client Delivery
 - CEO approval obtained
 - All acceptance criteria met
 - Complete traceability validated
 - Supporting materials packaged
+- Customer Success Director prepares presentation
 
 ## Communication Protocols
 
